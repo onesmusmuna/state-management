@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-type IUser = {
+export type IUser = {
   id: number;
   name: string;
   username: string;
@@ -8,7 +8,7 @@ type IUser = {
   address: string;
 };
 
-interface Iusers {
+export interface Iusers {
   users?: IUser[];
 
   getUsers(): void;
