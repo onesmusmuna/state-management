@@ -15,12 +15,12 @@ function App() {
 
       <hr />
 
-      <Zudstand />
+      <ZudstandConter />
     </>
   );
 }
 
-function Zudstand() {
+function ZudstandConter() {
   const counter = useCounter();
   const addOne = useCounter((state) => state.increment);
   const minusOne = useCounter((state) => state.decrement);
